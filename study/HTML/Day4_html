@@ -41,17 +41,17 @@
                 <label>Hobbies:</label>
 
                 <label for="photography">
-                    <input id="photography" type="checkbox" name="hobbies" value="photography" checked> Photography</label>
+                <input id="photography" type="checkbox" name="hobbies" value="photography" checked> Photography</label>
                 <label for="reading">
-                    <input id="reading" type="checkbox" name="hobbies" value="reading"> Reading </label>
+                <input id="reading" type="checkbox" name="hobbies" value="reading"> Reading </label>
                 <label for="drawing">
-                    <input id="drawing" type="checkbox" name="hobbies" value="drawing"> Drawing</label>
+                <input id="drawing" type="checkbox" name="hobbies" value="drawing"> Drawing</label>
                 <label for="swimming">
-                    <input id="swimming" type="checkbox" name="hobbies" value="swimming"> Swimming</label>
+                <input id="swimming" type="checkbox" name="hobbies" value="swimming"> Swimming</label>
                 <label for="cooking">
-                    <input id="cooking" type="checkbox" name="hobbies" value="cooking"> Cooking</label>
+                <input id="cooking" type="checkbox" name="hobbies" value="cooking"> Cooking</label>
                 <label for="football">
-                     <input id="football" type="checkbox" name="hobbies" value="football"> Football</label>
+                <input id="football" type="checkbox" name="hobbies" value="football"> Football</label>
             </div>
         </form>
     </fieldset>
@@ -61,16 +61,16 @@
             <legend>Contact Us</legend>
             <div>
                 <label for="name">Name</label>
-                    <input type="text" name="name" placeholder="Enter Your Name" required>
+                <input type="text" name="name" placeholder="Enter Your Name" required>
             </div>
             <br>
             <div>
                 <label for="email">Email</label>
-                    <input type="email" name="email" placeholder="Enter Your Email" required>
+                <input type="email" name="email" placeholder="Enter Your Email" required>
             </div>
             <br>
                 <label for="message">Message</label>
-                    <textarea name="message" placeholder="Write Your Message" required></textarea>
+                <textarea name="message" placeholder="Write Your Message" required></textarea>
             
         </fieldset>
     </form>
