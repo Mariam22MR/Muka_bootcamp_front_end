@@ -1,7 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <title>octagonal_sign</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Form pages</title>
     </head>
     <body>
         <fieldset>
@@ -9,17 +11,17 @@
         <form>
             <div>
                 <label>Name</label>
-                <input type="text" id="name" name="name" placeholder="Enter Name" required>
+                <input type="text" id="name" name="name" placeholder="Enter Your Name" required>
             </div>
             <br>
             <div>
-              <label>Email</label>
-              <input type="email" id="email" name="email" placeholder="Enter Email" required>
+                <label>Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter Your Email" required>
             </div>
             <br>
             <div>
                 <label>Password</label>
-                <input type="password">
+                <input type="password" id="password" name="password" placeholder="Enter Your Password" >
             </div>
             <br>
             <div>
@@ -37,12 +39,43 @@
             <fieldset>
             <legend>Choose Your Hobbies</legend>
             <div>
-                <label>Hobbies</label>
-                <input type="checkbox">
+                <label>Hobbies:</label>
+
+                <label for="photography">
+                    <input id="photography" type="checkbox" name="hobbies" value="photography" checked> Photography</label>
+                <label for="reading">
+                    <input id="reading" type="checkbox" name="hobbies" value="reading"> Reading </label>
+                <label for="drawing">
+                    <input id="drawing" type="checkbox" name="hobbies" value="drawing"> Drawing</label>
+                <label for="swimming">
+                    <input id="swimming" type="checkbox" name="hobbies" value="swimming"> Swimming</label>
+                <label for="cooking">
+                    <input id="cooking" type="checkbox" name="hobbies" value="cooking"> Cooking</label>
+                <label for="football">
+                     <input id="football" type="checkbox" name="hobbies" value="football"> Football</label>
             </div>
-            <br>
-            <input type="submit" value="submit">
         </form>
     </fieldset>
+    <br>
+    <form>
+        <fieldset>
+            <legend>Contact Us</legend>
+            <div>
+                <label for="name">Name</label>
+                    <input type="text" name="name" placeholder="Enter Your Name" required>
+            </div>
+            <br>
+            <div>
+                <label for="email">Email</label>
+                    <input type="email" name="email" placeholder="Enter Your Email" required>
+            </div>
+            <br>
+                <label for="message">Message</label>
+                    <textarea name="message" placeholder="Write Your Message" required></textarea>
+            
+        </fieldset>
+    </form>
+    <br>
+    <button type="submit">Submit</button>
     </body>
 </html>
