@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 80%;
+    background: linear-gradient(to top, rgba(23, 72, 103, 0.379)50%, rgba(83, 123, 146, 0.21)50%), url(pic.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+}
+
+.logo{
+    color: hsl(hue, saturation, lightness);
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 20px;
+    padding-top: 10px;
+    float: left;
+
+}
