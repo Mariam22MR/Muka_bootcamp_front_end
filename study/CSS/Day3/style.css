@@ -1,1 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+header{
+    width: 100vw;
+    background-image: url(pic1.png);
+    height: 100vh;
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.title{
+    margin: 100px;
+    color: rgb(27, 39, 49);
+    text-align: center;
+    font-family: cursive;
+}
+
+section{
+    float: left;
+    width: 80%;
+    background-color: #9994a347;
+    border-radius: 8px;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+}
