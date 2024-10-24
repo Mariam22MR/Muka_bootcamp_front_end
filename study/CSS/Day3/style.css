@@ -9,8 +9,8 @@ header{
     background-image: url(pic1.png);
     height: 100vh;
     background-position: bottom;
-    background-size: cover;
     display: flex;
+    background-size: cover;
     align-items: flex-start;
     justify-content: center;
 }
@@ -21,6 +21,16 @@ header{
     text-align: center;
     font-family: cursive;
 }
+
+/*.list, a{
+    color: rgb(13, 38, 38);
+    position: relative;
+    top: 20px;
+    left: 10%;
+    display: contents;
+    justify-content: space-between;
+
+}*/
 
 section{
     float: left;
