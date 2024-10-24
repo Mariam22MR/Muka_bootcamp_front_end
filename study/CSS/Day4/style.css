@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+}
+
+header, main, section, footer{
+    background-color: rgba(250, 235, 215, 0.301);
+    margin-bottom: 15px;
+}
+
+.hhh{
+    color: rgb(243, 247, 247);
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 5px;
+    left: 80%;
+
+
+}
+
+header{
+    font-size: 10px;
+    text-decoration: line-through;
+
+}
+
+main{
+    height: 600px;
+    width: 40%;
+    background-color: rgba(94, 92, 92, 0.53);
+    text-align: center;
+}
+
+.bic2, .bic3{
+    font-size: 20px;
+
+
+}
+
+#about{
+    color: #363251;
+    margin: 20px;
+    text-align: center;
+
+}
+
+#project{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+
+}
+
+/*.parint{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}*/
+
+@media (max-width: 500px){
+    .parint{
+        flex-direction: column;
+    }
+
+    .bic2{
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+footer{
+    text-align: center;
+}
