@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: rgb(43, 53, 61);
+    /*font-family: ;*/
+}
+
+body{
+    background-color: rgb(231, 219, 242);
+    display: flex;
+}
+
+.img-box img{
+    width: 100%;
+}
+
+.img-box{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 3px  solid rgb(248, 243, 243);
+    box-shadow: 3px 3px 25px black;
+    overflow: hidden;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.menu{
+    background-color: rgb(216, 186, 244);
+    width: 250px;
+    height: 100vh;
+    padding: 20px;
+}
+
+ul{
+    list-style: none;
+    position: relative;
+    height: 95%;
+
+}
+
+ul li a{
+    display: block;
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    /*background-color: blanchedalmond;*/
+    /*transition: .5s;*/
+
+}
+
+ul li a:hover, .data-info .box:hover, td:hover{
+    background-color: rgb(185, 184, 182);
+}
+
+ul li a i{
+    font-size: 30px;
+}
+
+.log-out{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+}
+
+.log-out a{
+    background-color: rgb(163, 62, 62);
+    font-size: medium;
+}
+
+.content{
+    width: 100%;
+    margin: 10px;
+
+}
+
+.title-info{
+    background-color: rgba(186, 118, 249, 0.845);
+    display: flex;
+    padding: 10px;
+    margin: 10px 0;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.data-info{
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 25% 25% 25% 25%;
+    /*grid-template-rows: 30% 30%;*/
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    /*flex-wrap: wrap;*/
+}
+
+.data-info .box{
+    background-color: rgb(241, 209, 239);
+    height: 150px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+
+.data-info .box i{
+    font-size: 50px;
+}
+
+.data-info .box .data span{
+    font-size: 40px;
+}
+
+table{
+    width: 100%;
+    text-align: center;
+    border-spacing: 5px;
+}
+
+th{
+    background-color: rgba(186, 118, 249, 0.845);
+}
+
+td, th{
+    background-color: rgb(241, 209, 239);
+    height: 40px;
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .data-info{
+        grid-auto-flow: row;
+    }
+    
+}
